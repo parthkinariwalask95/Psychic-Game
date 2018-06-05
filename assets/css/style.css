@@ -1,0 +1,52 @@
+.h1{
+    color: orange;
+    font-size: 40px;
+    width:400px;
+    text-align: center;
+}
+.text1{
+    text-align: center;
+}
+#u1{
+    color: palegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+#w1{
+    color: palegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+#l1{
+    color: palegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+#g1{
+    color: palegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+#g2{
+    color: palegreen;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    width: 450px;
+    border: 3px solid white;
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+.button{
+    background-color: olive;
+    font-size:20px;
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 200px;
+}
