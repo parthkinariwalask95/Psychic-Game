@@ -5,6 +5,12 @@ x.setAttribute("src", "assets/image/smily1.jpg");
 x.setAttribute("width", "304");
 x.setAttribute("height", "228");
 
+var y = document.createElement("IMG");
+y.setAttribute("src", "assets/image/tryagain.jpg");
+y.setAttribute("width", "304");
+y.setAttribute("height", "228");
+
+
 // Creating variables to hold the number of wins, losses,count,and guesstill.
 var wins = 0;
 var losses = 0;
@@ -26,12 +32,13 @@ document.onkeyup = function (event) {
   // if condition
   if (userGuess == randomchoice) {
     wins++;
-    document.getElementById("addimage").appendChild(x);
    
-
+   
+    document.getElementById("addimage").appendChild(x);
 
       //    print the msg "you won"
       alert("you won");
+      document.getElementById("addimage").appendChild(x);
       count = 9;
       losses = 0;
       guessstill = [];
@@ -46,8 +53,11 @@ document.onkeyup = function (event) {
     //    if condition
     if (count == 0) {
       losses++;
+      
+   
       // print the msg "you won"  
       alert("you losse");
+      document.getElementById("addimage").appendChild(y);
       count = 9;
       guessstill = [];
     }
@@ -73,6 +83,7 @@ function myfunction() {
   document.querySelector('#g1').innerHTML = "Guesses Left :";
   document.querySelector('#g2').innerHTML = "Guesses so far:";
   document.querySelector('#addimage').innerHTML = "";
+ 
     
 
 
